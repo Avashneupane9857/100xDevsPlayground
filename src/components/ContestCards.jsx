@@ -3,7 +3,6 @@
 export default function ContestCards({ title, timeLeft, img }) {
   return (
     <>
-    
       <div className=" w-[40%] mt-[-200px] z-40 rounded-3xl overflow-hidden cursor-pointer">
         <div>
           <img src={img} alt="" className="w-[900px]" />
