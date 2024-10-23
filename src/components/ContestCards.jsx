@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+
 export default function ContestCards({ title, timeLeft, img }) {
   return (
     <>
@@ -10,6 +11,7 @@ export default function ContestCards({ title, timeLeft, img }) {
         <div className="bg-[#1A1A1A] text-white p-4">
           <h1 className="font-bold">{title}</h1>
           <p className="font-extralight text-[10px]">{timeLeft}</p>
+          <button></button>
         </div>
       </div>
     </>

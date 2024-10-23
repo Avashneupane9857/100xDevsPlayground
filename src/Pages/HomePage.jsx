@@ -1,7 +1,9 @@
 import ContestCards from "../components/ContestCards";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import { contestimage1, contestimage2, contestimage3 } from "../assets";
+import { contestimage1, contestimage2 } from "../assets";
+import ContestList from "../components/ContestList";
+import StudentRanking from "../components/StudentRanking";
 
 function HomePage() {
   const contests = [
@@ -32,6 +34,10 @@ function HomePage() {
             img={contest.img}
           />
         ))}
+      </div>
+      <div className=" flex justify-between gap-9  mt-3 w-[90%] mx-auto">
+        <ContestList />
+        <StudentRanking />
       </div>
     </div>
   );
