@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import { contestimage1, contestimage2 } from "../assets";
 import ContestList from "../components/ContestList";
 import StudentRanking from "../components/StudentRanking";
+import Slider from "../components/Slider";
 
 function HomePage() {
   const contests = [
@@ -39,6 +40,7 @@ function HomePage() {
         <ContestList />
         <StudentRanking />
       </div>
+      <Slider />
     </div>
   );
 }
